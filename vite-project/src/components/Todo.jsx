@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const Todo = ({ todo }) => {
+const Todo = ({ todo, deleteTodo }) => {
   return (
     <div className="todo">
       <div className="content">
@@ -9,7 +9,7 @@ const Todo = ({ todo }) => {
       </div>
       <div>
         <button className='complete'>Completar</button>
-        <button className='delete'>Deletar</button>
+        <button className='delete' onClick={() => deleteTodo(todo.id)}>Deletar</button>
       </div>
     </div>
   )
