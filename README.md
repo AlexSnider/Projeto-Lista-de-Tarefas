@@ -37,19 +37,20 @@ Basicamente, consiste de uma ferramenta online para registro e acompanhamento de
 - Windows 10 or +
 - Navegador de internet
 - Microsoft Visual Studio Code
+- Git
 
 # Instalação:
-Clone o repositório:
+Clone o repositório através do terminal do Windows (CMD) e insira os comandos:
 ```
 git clone https://github.com/AlexSnider/Projeto-Lista-de-Tarefas)
 cd vite-project
 ```
 
-Para rodar o projeto execute:
+Para rodar o projeto execute em um novo terminal dentro do VS code:
 ``` 
 npm run dev
 ```
-Após esses passos, o site com o projeto será aberto automaticamente no seu navegador.
+Após esse passo, acesse no terminal o link http://localhost:5173/ usando o botão "CTRL + Clique Esquedo" do mouse e o projeto será aberto no seu navegador.
 
 # Uso:
 Assim que o site do projeto carregar, você já terá acesso a todas as funcionalidades:
